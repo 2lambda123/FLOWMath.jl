@@ -1,0 +1,57 @@
+repo_name: 2lambda123/FLOWMath.jl
+report_id: 7c3d3709779f43664d52a5c7c698fc6c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:20:24+00:00'
+requested_by: andrewning
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/FLOWMath.jl
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/FLOWMath.jl/blob/master/.github/workflows/TagBot.yml
+  detection_source: ".github/workflows/TagBot.yml"
+  last_updated_by: Julia TagBot
+  last_updated_on: 2020-02-08 13:02:51.000000000 Z
+- name: Julia
+  description: A high-level, high-performance dynamic programming language for technical
+    computing
+  website_url: http://pkg.julialang.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/3914/default_a30825f60d1159a8bca0d7d45c4988f63eeb2b0f.png
+  detection_source_url: https://github.com/2lambda123/FLOWMath.jl
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/FLOWMath.jl/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Andrew Ning
+  last_updated_on: 2019-10-25 14:19:27.000000000 Z
